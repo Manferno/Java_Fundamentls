@@ -14,8 +14,20 @@ public class EjemploStringMetodos {
         System.out.println("name.compareTo(\"Andrew\") = " + name.compareTo("Andrew"));
         System.out.println("name.charAt(0) = " + name.charAt(name.length()-1));
         System.out.println("name.substring(1,4) = " + name.substring(1,4));
-     
         
+        
+        String trabalenguas = "trabalenguas";
+        System.out.println("trabalenguas.replace(\"a\", \".\") = " + trabalenguas.replace("a", "."));
+        System.out.println("trabalenguas = " + trabalenguas);
+        System.out.println("trabalenguas.indexOf('a') = " + trabalenguas.indexOf('a'));
+        System.out.println("trabalenguas.lastIndexOf('a') = " + trabalenguas.lastIndexOf('a'));
+        System.out.println("trabalenguas.indexOf('t') = " + trabalenguas.indexOf('t'));
+        System.out.println("trabalenguas.contains(\"j\") = " + trabalenguas.contains("j"));
+        System.out.println("trabalenguas.startsWith(\"traba\") = " + trabalenguas.startsWith("traba"));
+        System.out.println("trabalenguas.endsWith(\"uas\") = " + trabalenguas.endsWith("uas"));
+
+        System.out.println("   trabalenguas  ");
+        System.out.println("   trabalenguas  ".trim());
         
         
     }
